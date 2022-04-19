@@ -9,4 +9,4 @@ elif not nome:
 elif not idade:
     print('por favor volte e digite a sua idade')
 else:
-    print('parabens agora você e minha esposa')
+    print('parabéns você foi aceito ')

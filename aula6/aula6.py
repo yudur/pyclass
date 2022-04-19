@@ -12,6 +12,6 @@ print('você é de maior:', maior)
 
 print(30 * '-')
 
-# exercicio
+# exercício
 imc = peso / (altura ** 2)
 print(nome, 'tem', idade, 'anos e seu imc é de', imc)

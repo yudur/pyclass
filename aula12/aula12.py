@@ -1,5 +1,5 @@
 """
-operadores logicos
+operadores lógicos
 and, or, not
 """
 

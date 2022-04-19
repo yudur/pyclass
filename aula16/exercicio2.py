@@ -16,4 +16,4 @@ elif 18 <= int(hora) <= 24:
     print('BOA NOITE')
 
 else:
-    print('um dia só tem 24h vc é burro kslkslskslks')
+    print('um dia só tem 24h')

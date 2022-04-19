@@ -1,7 +1,7 @@
 """
  operadores relacionais
 
-== iguldade
+== igualdade
 
 > maior que
 
@@ -43,9 +43,9 @@ print()
 nome = input('digite seu nome: ')
 idade = int(input('digite sua idade: '))
 
-#  verificador de imprestimo
+#  verificador de empréstimo
 if 18 <= idade <= 50:
-    print('olá senhor {}, você pode faser um imprestimo.'.format(nome))
+    print('olá senhor {}, você pode fazer um empréstimo.'.format(nome))
 
 else:
-    print('me descupe voçe não pode faser um imprestimo')
+    print('me desculpe você não pode fazer um empréstimo')

@@ -1,4 +1,4 @@
-nome = 'Yudi Mendes Duarte'
+nome = 'Yudi Duarte'
 idade = 13
 altura = 1.69
 maior = idade > 18

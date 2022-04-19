@@ -1,12 +1,12 @@
-'''
+"""
 tipos de dados
 str - string = 'x' "y"
 int - inteiro = 12 / 23
 float - real / ponto flutuante = 12.2 / 2.333
 bool - booleano / lógica = true / false
-'''
+"""
 
-print(type('yudi'))
+print(type('animal'))
 print(type(123))
 print(type(0.0))
 print(type(1000 == 1000))
