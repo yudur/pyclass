@@ -1,6 +1,6 @@
 
 print(1234)
-print('yudi', 'gostoso', 'lindão', 'perfeito')
+print('yudi', 'mendes', 'duarte')
 
 print('yudi', 'mendes', 'duarte', sep='--', end=',  ')
 print('yasmin', 'mendes', 'duarte', sep='--', end=',   ')
