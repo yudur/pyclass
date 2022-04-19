@@ -1,0 +1,7 @@
+print('yudi é muito "bonito" e "perfeito" ')
+print(' ')
+print("yudi é muito \"inteligente\" e \"lindo\" ")
+print(' ')
+print('yudi um soberano que \n veio do do futuro para comer...')
+print(' ')
+print(r'yudi um soberano que \n veio do do futuro para comer...')
