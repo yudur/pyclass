@@ -12,13 +12,13 @@ print(lista_1)
 
 print()
 
-# append — adiciona um carácter no final da lista
+# append — adiciona um valor no final da lista
 lista_1.append('abc')
 print(lista_1)
 
 print()
 
-# insert — adiciona um carácter em qualquer posição
+# insert — adiciona um valor em qualquer posição
 lista_1.insert(0, 'maçã')
 print(lista_1)
 
