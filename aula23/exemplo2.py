@@ -28,3 +28,9 @@ print()
 lista_1.pop(0)
 lista_1.pop(-1)
 print(lista_1)
+
+print()
+
+# del — deleta um valor usando o fatiamento
+del(lista_1[3:6])
+print(lista_1)
