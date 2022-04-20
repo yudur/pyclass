@@ -16,4 +16,4 @@ print(string[2])
 print()
 
 lista[1] = 'B'
-print(lista[:3])
+print(lista[:-2])
