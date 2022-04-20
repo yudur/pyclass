@@ -12,6 +12,19 @@ print(lista_1)
 
 print()
 
-# append — adicionar um carácter no final da lista
-lista_1.append('yudi')
+# append — adiciona um carácter no final da lista
+lista_1.append('abc')
+print(lista_1)
+
+print()
+
+# insert — adiciona um carácter em qualquer posição
+lista_1.insert(0, 'maçã')
+print(lista_1)
+
+print()
+
+# pop — apagar qualquer coisa da lista
+lista_1.pop(0)
+lista_1.pop(-1)
 print(lista_1)
