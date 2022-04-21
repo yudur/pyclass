@@ -1,4 +1,4 @@
-secreto = 'motoqueiro'
+secreto = 'motor'
 digitadas = []
 
 while True:
@@ -15,7 +15,17 @@ while True:
     digitadas.append(letra)
 
     if letra in secreto:
-        print('Uau a letra "{}" existe na palavra secreta.  :) '.format(letra))
+        print('hehe a letra "{}" existe na palavra secreta.  :) '.format(letra))
 
     else:
-        print('aff a letra "{}" não existe na palavra secreta  :( ')
+        print('aff a letra "{}" não existe na palavra secreta  :( '.format(letra))
+        digitadas.pop()
+
+    secreto_temp = ''
+    for letra_secreta in secreto:
+        if letra_secreta in digitadas:
+            secreto_temp += letra_secreta
+        else:
+            secreto_temp += '*'
+
+    print(secreto_temp)
