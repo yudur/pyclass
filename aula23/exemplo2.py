@@ -48,4 +48,3 @@ print(min(lista_1))
 # range — podemos adicionar valores a lista mais rapido
 lista_1 = list(range(0, 11))
 print(lista_1)
-
