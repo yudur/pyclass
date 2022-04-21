@@ -3,7 +3,7 @@ digitadas = []
 chances = 5
 
 while True:
-    if chances <= 0:
+    if chances < 1:
         print('VOCÊ PERDEU!!!')
         break
 
