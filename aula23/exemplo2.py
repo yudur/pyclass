@@ -34,3 +34,18 @@ print()
 # del — deleta um valor usando o fatiamento
 del(lista_1[3:6])
 print(lista_1)
+
+print()
+
+# max — mostra o maior valor da lista
+print(max(lista_1))
+
+print()
+
+# min — mostra o menor valor da lista
+print(min(lista_1))
+
+# range — podemos adicionar valores a lista mais rapido
+lista_1 = list(range(0, 11))
+print(lista_1)
+
