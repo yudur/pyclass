@@ -1,7 +1,12 @@
-secreto = 'motor'
+secreto = 'motoqueiro'
 digitadas = []
+chances = 5
 
 while True:
+    if chances <= 0:
+        print('VOCÊ PERDEU!!!')
+        break
+
     letra = input('digite uma letra: ')
 
     if len(letra) > 1:
@@ -28,4 +33,14 @@ while True:
         else:
             secreto_temp += '*'
 
-    print(secreto_temp)
+    if secreto_temp == secreto:
+        print('PARABÉNS VOCÊ GANHOU!!!')
+        break
+    else:
+        print(secreto_temp)
+
+    if letra not in secreto:
+        chances -= 1
+
+    print('você ainda tem {} chances.'.format(chances))
+    print()
