@@ -34,7 +34,7 @@ while True:
             secreto_temp += '*'
 
     if secreto_temp == secreto:
-        print('PARABÉNS VOCÊ GANHOU!!!')
+        print('PARABÉNS VOCÊ GANHOU!!! A palavra secreta era "{}"'.format(secreto))
         break
     else:
         print(secreto_temp)
