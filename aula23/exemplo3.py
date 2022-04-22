@@ -44,3 +44,4 @@ while True:
 
     print('você ainda tem {} chances.'.format(chances))
     print()
+    
