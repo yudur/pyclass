@@ -18,5 +18,4 @@ for valor in lista_1:
         contagem = qtd_vezes
         palavra = valor
 
-
 print('a palavra que apareceu mais vezes foi {} {}x'.format(palavra, contagem))
