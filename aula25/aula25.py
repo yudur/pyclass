@@ -7,7 +7,6 @@ Split, join, Enumerate em python
 string = 'O Brasil é o país do futebol. o Brasil é penta'
 
 lista_1 = string.split(' ')
-lista_2 = string.split('.')
 
 palavra = ''
 contagem = 0
