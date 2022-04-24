@@ -9,7 +9,15 @@ print(msg1)
 
 print()
 
-idade = input('digite a sua idade: ')
-msg2 = 'você pode acessar' if int(idade) >= 18 else 'não pode acessar'
+while True:
+    idade = input('digite a sua idade: ')
 
-print(msg2)
+    if not idade.isnumeric():
+        print('por favor digite só números')
+        print()
+        continue
+
+    msg2 = 'você pode acessar' if int(idade) >= 18 else 'não pode acessar'
+
+    print(msg2)
+    exit()
