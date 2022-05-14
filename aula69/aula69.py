@@ -30,3 +30,4 @@ while True:
     except IndexError:
         print(Fore.RED + 'ERROR')
         break
+
