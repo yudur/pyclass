@@ -12,7 +12,7 @@ grão de areia
 """
 
 print('olhares perdidos na imensidão do mar.')
-print('O amor que flui, que gera, que socorre.')
+print('O amor que flui, que gera.py, que socorre.')
 print('Foi apenas um grão de areia')
 print('Que cegou meus olhos. Mas aprendi.')
 print('Hoje sou livre, falcão no céu.')
