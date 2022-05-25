@@ -1,0 +1,15 @@
+INFO: O ROG Phone foi conectado com sucesso
+INFO: O ROG Phone foi desconectado com sucesso
+ERROR: O ROG Phone está desligado
+INFO: O ROG Phone foi conectado com sucesso
+ERROR: O ROG Phone está desligado
+INFO: O ROG Phone foi conectado com sucesso
+INFO: O ROG Phone foi desconectado com sucesso
+ERROR: O ROG Phone está desligado
+INFO: O ROG Phone foi conectado com sucesso
+ERROR: O ROG Phone está desligado
+INFO: O ROG Phone foi conectado com sucesso
+INFO: O ROG Phone foi desconectado com sucesso
+ERROR: O ROG Phone está desligado
+INFO: O ROG Phone foi conectado com sucesso
+ERROR: O ROG Phone está desligado
