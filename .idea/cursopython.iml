@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/aula89/classes" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula91/classes" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula92/classes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/aula99/ffmpeg" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.10" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
