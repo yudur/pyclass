@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 
 {%block 'conteudo'%}
+
 <h1 class="mt-5">Minha agenda</h1>
 
 <table class="table">
@@ -31,15 +32,15 @@
 <nav aria-label="Page navigation example">
     <ul class="pagination">
         {% for pagina in contatos.paginator.page_range %}
-        {% if contatos.number == pagina %}
-        <li class="page-item active"><a
-                class="page-link" href="?p={{ pagina }}">{{pagina}}</a>
-        </li>
-        {% else %}
-        <li class="page-item"><a
-                class="page-link" href="?p={{ pagina }}">{{pagina}}</a>
-        </li>
-        {% endif %}
+            {% if contatos.number == pagina %}
+            <li class="page-item active"><a
+                    class="page-link" href="?p={{ pagina }}&termo={{ request.GET.termo }}">{{pagina}}</a>
+            </li>
+            {% else %}
+            <li class="page-item"><a
+                    class="page-link" href="?p={{ pagina }}&termo={{ request.GET.termo }}">{{pagina}}</a>
+            </li>
+            {% endif %}
         {% endfor %}
     </ul>
 </nav>
